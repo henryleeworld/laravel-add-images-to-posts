@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "63532b662970ad7f6add8953d404ee9e",
+    "content-hash": "c461e2f43cbb7460c01eee8f29c901f6",
     "packages": [
         {
             "name": "brick/math",
@@ -3350,16 +3350,16 @@
         },
         {
             "name": "spatie/laravel-medialibrary",
-            "version": "10.9.3",
+            "version": "10.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-medialibrary.git",
-                "reference": "c7eae00741a571f5049f1f1c4090683de8df420c"
+                "reference": "22581bc5578bb7984ab025a41e33baf3f154d093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/c7eae00741a571f5049f1f1c4090683de8df420c",
-                "reference": "c7eae00741a571f5049f1f1c4090683de8df420c",
+                "url": "https://api.github.com/repos/spatie/laravel-medialibrary/zipball/22581bc5578bb7984ab025a41e33baf3f154d093",
+                "reference": "22581bc5578bb7984ab025a41e33baf3f154d093",
                 "shasum": ""
             },
             "require": {
@@ -3443,7 +3443,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-medialibrary/issues",
-                "source": "https://github.com/spatie/laravel-medialibrary/tree/10.9.3"
+                "source": "https://github.com/spatie/laravel-medialibrary/tree/10.9.4"
             },
             "funding": [
                 {
@@ -3455,7 +3455,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-22T12:59:16+00:00"
+            "time": "2023-06-06T13:03:40+00:00"
         },
         {
             "name": "spatie/temporary-directory",
@@ -6286,16 +6286,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v1.10.0",
+            "version": "v1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "c7a01fa9bdd79819e7a2f1ba63ac1b02e6692dbc"
+                "reference": "d69f914aa347a448628b672ba90adf0b4ea0ce4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/c7a01fa9bdd79819e7a2f1ba63ac1b02e6692dbc",
-                "reference": "c7a01fa9bdd79819e7a2f1ba63ac1b02e6692dbc",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/d69f914aa347a448628b672ba90adf0b4ea0ce4a",
+                "reference": "d69f914aa347a448628b672ba90adf0b4ea0ce4a",
                 "shasum": ""
             },
             "require": {
@@ -6306,7 +6306,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.16.0",
+                "friendsofphp/php-cs-fixer": "^3.17.0",
                 "illuminate/view": "^10.5.1",
                 "laravel-zero/framework": "^10.0.2",
                 "mockery/mockery": "^1.5.1",
@@ -6348,7 +6348,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2023-04-25T14:52:30+00:00"
+            "time": "2023-06-03T15:01:17+00:00"
         },
         {
             "name": "laravel/sail",
@@ -8223,16 +8223,16 @@
         },
         {
             "name": "spatie/ignition",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ignition.git",
-                "reference": "ad13a6792992411e05d3d3b293e26bdf9f9a7321"
+                "reference": "d8eb8ea1ed27f48a694405cff363746ffd37f13e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ignition/zipball/ad13a6792992411e05d3d3b293e26bdf9f9a7321",
-                "reference": "ad13a6792992411e05d3d3b293e26bdf9f9a7321",
+                "url": "https://api.github.com/repos/spatie/ignition/zipball/d8eb8ea1ed27f48a694405cff363746ffd37f13e",
+                "reference": "d8eb8ea1ed27f48a694405cff363746ffd37f13e",
                 "shasum": ""
             },
             "require": {
@@ -8302,7 +8302,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-25T10:19:32+00:00"
+            "time": "2023-06-06T14:14:58+00:00"
         },
         {
             "name": "spatie/laravel-ignition",

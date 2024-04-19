@@ -6,15 +6,23 @@ use App\Models\Post;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Carbon;
 
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Post>
+ */
 class PostFactory extends Factory
 {
     protected $model = Post::class;
 
+    /**
+     * Define the model's default state.
+     *
+     * @return array<string, mixed>
+     */
     public function definition(): array
     {
         return [
-            'title' => $this->faker->jobTitle(),
-            'post_text' => $this->faker->text(),
+            'title' => fake()->jobTitle(),
+            'post_text' => fake()->text(),
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ];

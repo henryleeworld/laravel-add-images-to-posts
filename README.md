@@ -1,4 +1,4 @@
-# Laravel 10 將圖片新增到貼文中
+# Laravel 11 將圖片新增到貼文中
 
 開放用戶上傳更多圖片，不外乎是要讓用戶彼此間創造更多連結，能夠快速吸引注意力與提高社群分享意願。
 
@@ -16,13 +16,13 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __storage:link__ 來建立連結符號，建立一個從 `public/storage` 到 `storage/app/public` 的符號連結。
-```sh
-$ php artisan storage:link
-```
 - 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
 ```sh
 $ php artisan migrate --seed
+```
+- 執行 __Artisan__ 指令的 __storage:link__ 來建立連結符號，讓公用可存取的檔案維持在一個目錄中。
+```sh
+$ php artisan storage:link
 ```
 - 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
@@ -39,8 +39,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/bKrHvYz.png)
+![](https://i.imgur.com/sn5SHTB.png)
 > 選圖時最好選擇有意義的圖片，例如可與貼文連結或提高文案價值的圖片，而且必須符合品牌價值與調性
 
-![](https://i.imgur.com/vC0QeFj.png)
+![](https://i.imgur.com/SZEnSVT.png)
 > 有圖片的貼文，比純文字更吸引人閱讀

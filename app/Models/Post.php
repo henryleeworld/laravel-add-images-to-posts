@@ -11,12 +11,13 @@ use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
 class Post extends Model implements HasMedia
 {
+    /** @use HasFactory<\Database\Factories\PostFactory> */
     use HasFactory, InteractsWithMedia;
 
     /**
      * The attributes that are mass assignable.
      *
-     * @var array<int, string>
+     * @var list<string>
      */
     protected $fillable = [
         'title',
